@@ -1,5 +1,7 @@
 main :: IO()
 
+-- Check if a list is a palindrome
+
 isPalindrome :: Eq a => [a] -> Bool
 
 isPalindrome [] = True
